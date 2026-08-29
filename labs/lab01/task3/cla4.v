@@ -51,6 +51,7 @@ wire t1a, t2a, t2b, t3a, t3b, t3c, t4a, t4b, t4c, t4d;
   and #(2) (t2a, p1, g0);
   and #(2) (t2b, p1, p0, cin);
   or  #(2) (c2, g1, t2a, t2b);
+  
 
 
   and #(2) (t3a, p2, g1);
