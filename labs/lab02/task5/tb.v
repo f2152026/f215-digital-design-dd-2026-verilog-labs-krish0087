@@ -41,6 +41,7 @@ module tb;
 
         $finish;
     end
+    
 
     initial begin
         $monitor($time,
